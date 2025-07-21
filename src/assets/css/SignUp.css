@@ -1,0 +1,11 @@
+/* .sign-img{
+    
+    min-height: 984px;
+    overflow: hidden;
+} */
+.sign-img>img{
+    width: 711px;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}

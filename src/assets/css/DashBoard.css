@@ -1,0 +1,26 @@
+.dash-body{
+    min-height: 80vh;
+}
+.dash-head h1{
+    font-size: 40px ;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.dash-input input{
+    width: 710px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
+    padding: 12px;
+}
+.dash-input input:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+.dash-input input::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: rgba(179, 179, 179, 1);
+    font-size: 16px;
+}

@@ -1,0 +1,64 @@
+.work{
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    border-top: 1px solid rgba(230, 230, 230, 1);
+}
+.work-header{
+    font-size: 40px;
+    font-weight: 700 !important;
+    font-family: "Poppins", sans-serif;
+}
+.work-header button{
+    background-color: rgba(0, 128, 0, 1);
+    width: 240px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+.work-header button:hover{
+    background-color: rgba(11, 99, 12, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.work-content{
+    width: 340px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-content>img{
+    width: 100%;
+    height: 340px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border: none;
+    
+}
+.tag{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 128, 0, 1);
+    padding: 4px 8px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.tag span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500 !important;
+    color: rgba(255, 255, 255, 1);
+}
+.work-word{
+    padding: 12px;
+}
+.work-word p{
+    font-size: 16px;
+    font-weight: 400 !important;
+    font-family: "Poppins", sans-serif;
+}
+.work-word h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500 !important;
+}

@@ -1,0 +1,21 @@
+.account-section{
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+.account h1{
+    max-width: 796px;
+    font-weight: 700 !important;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+}
+.account button{
+    background-color: rgba(0, 128, 0, 1);
+    width: 240px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+.account button:hover{
+    background-color: rgba(11, 99, 12, 1);
+    color: rgba(255, 255, 255, 1);
+}
