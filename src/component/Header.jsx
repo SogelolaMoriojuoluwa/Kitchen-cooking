@@ -1,5 +1,5 @@
 import '../assets/css/Header.css'
-import HeaderImg from '../assets/image/Header.png'
+import HeaderImg from '../assets/image/header.png'
 import { Link } from 'react-router-dom'
 
 function Header() {
