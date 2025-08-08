@@ -12,6 +12,7 @@ import MyTaskPage from './page/MyTaskPage.jsx'
 import NewsPage from './page/NewsPage.jsx'
 import DashBoard from './page/DashBoard.jsx'
 import SignUp from './page/SignUp.jsx'
+import Gallery from './page/Gallery.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
    {
     path: '/signup',
     element: <SignUp />,
+  },
+  {
+    path: '/gallery',
+    element: <Gallery />,
   },
 ]);
 
